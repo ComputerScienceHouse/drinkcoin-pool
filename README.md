@@ -1,4 +1,4 @@
-cryptonote-forknote-pool
+drinkcoin-pool
 ====================
 
 **NOTICE:  If you have problems with orphan blocks, read this first:
