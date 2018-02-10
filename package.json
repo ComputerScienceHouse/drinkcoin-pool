@@ -1,23 +1,27 @@
 {
-    "name": "forknote-pool",
-    "version": "0.0.1",
+    "name": "drinkcoin-pool",
+    "description": "A mining pool for Drinkcoin",
+    "version": "1.2.4",
     "license": "GPL-2.0",
-    "authors": "Matthew Little",
+    "contributors": [
+        "Matthew Little",
+        "Steven Mirabito <smirabito@csh.rit.edu>"
+    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/forknote/forknote-pool"
+        "url": "https://github.com/ComputerScienceHouse/drinkcoin-pool.git"
+    },
+    "scripts": {
+        "start": "node init.js"
     },
     "dependencies": {
-        "bignum": "*",
-        "async": "1",
-        "redis": "*",
-        "cli-color": "*",
-        "dateformat": "*",
-        "base58-native": "*",
+        "async": "^2.6.0",
+        "base58-native": "^0.1.4",
+        "bignum": "^0.12.5",
+        "cli-color": "^1.2.0",
+        "cryptonote-util": "git://github.com/forknote/node-cryptonote-util.git",
+        "dateformat": "^3.0.3",
         "multi-hashing": "git://github.com/fancoder/node-multi-hashing.git",
-        "cryptonote-util": "git://github.com/forknote/node-cryptonote-util.git"
-    },
-    "engines": {
-        "node": ">=0.10"
+        "redis": "^2.8.0"
     }
 }
