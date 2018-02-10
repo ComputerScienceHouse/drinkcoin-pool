@@ -109,17 +109,17 @@ module.exports = {
 
   "daemon": {
     "host": process.env.POOL_DAEMON_HOST || "127.0.0.1",
-    "port": process.env.POOL_DAEMON_PORT || 42069
+    "port": process.env.POOL_DAEMON_PORT || 42068
   },
 
   "wallet": {
     "host": process.env.POOL_WALLET_HOST || "127.0.0.1",
-    "port": process.env.POOL_WALLET_PORT || 42068
+    "port": process.env.POOL_WALLET_PORT || 8070
   },
 
   "redis": {
     "host": process.env.POOL_REDIS_HOST || "127.0.0.1",
-    "port": process.env.POOL_REDIS_PORT || 6369
+    "port": process.env.POOL_REDIS_PORT || 6379
   },
 
   "monitoring": {
